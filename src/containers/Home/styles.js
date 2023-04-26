@@ -7,8 +7,7 @@ export const Container = styled.div`
   align-items: center;
   height: 100vh;
 `;
-export const Image = styled.img`
-`;
+export const Image = styled.img``;
 export const H1 = styled.h1`
   color: #ffffff;
   font-size: 28px;
