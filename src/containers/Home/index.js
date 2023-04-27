@@ -21,10 +21,10 @@ function App() {
         <H1>Faça seu pedido!</H1>
       
         <InputLabel>Pedido:</InputLabel>
-        <Input placeholder="Pedido"></Input>
+        <Input placeholder="Pedido"/>
 
         <InputLabel>Nome do Cliente:</InputLabel>
-        <Input placeholder="Nome do Cliente"></Input>
+        <Input placeholder="Nome do Cliente"/>
 
         <Button>Novo Pedido</Button>
       </ContainerIn>
