@@ -5,10 +5,12 @@ export const Container = styled.div`
   background: #0a0a10;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
+  height: 100%;
 `;
 export const Image = styled.img`
   margin-bottom: 25px;
+  margin-top: 50px;
 `;
 export const H1 = styled.h1`
   color: #ffffff;
@@ -17,17 +19,15 @@ export const H1 = styled.h1`
   padding-bottom: 70px;
 `;
 export const ContainerIn = styled.div`
-  background: #0a0a10;
   display: flex;
   flex-direction: column;
-  padding: 50px 100px;
 `;
 export const InputLabel = styled.p`
   color: #eeeeee;
   font-style: normal;
   font-weight: 700;
   padding-left: 18px;
-  font-size: 16px;
+  font-size: 19px;
   line-height: 22px;
 `;
 export const Input = styled.input`
@@ -39,16 +39,17 @@ export const Input = styled.input`
   outline: none;
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 16+px;
   line-height: 22px;
   margin-bottom: 42px;
   padding-left: 15px;
 
   ::placeholder {
-    color: #ffffff;
+    color: #FFFFFF;
+    opacity: 0.3;
     font-style: normal;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 21px;
   }
 `;

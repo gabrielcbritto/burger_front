@@ -2,23 +2,23 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
-  background: pink;
+  background-color: black;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+  height: 100%;
+  min-height: 100vh;
 `;
 export const Image = styled.img`
 `;
 
 export const ContainerIn = styled.div`
-  background: black;
   display: flex;
   flex-direction: column;
+  align-items: center;
 `;
 export const H1 = styled.h1`
   color: #FFFFFF;
   font-size: 28px;
-  text-align: center;
   margin-top: 36px;
   margin-bottom: 50px;
 `;
@@ -30,26 +30,46 @@ export const Order = styled.li`
   border-radius: 14px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-bottom: 16px;
 `;
 
 export const OrderContainer = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   justify-content: space-around;
+
+  padding-left: 15px;
+  max-width: 400px;
+
+  word-wrap: break-word;
+
   font-style: normal;
-  font-weight: 300;
   font-size: 18px;
   line-height: 21px;
   color: #FFFFFF;
+  font-weight: 300;
+
+  p:last-child {
+    font-weight: 700;
+  }
 `;
 
 export const ImgContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
+  padding-right: 15px;
+  
+
+`;
+
+export const ButtonImg = styled.button`
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  
 
 `;
 
