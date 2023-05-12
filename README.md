@@ -1,6 +1,4 @@
-[Go](#top)
-
-## <a name=“top”><a/> BurguerPlace 🍔
+[Go](#top)# <a name=“top”><a/> BurguerPlace 🍔
 
 
 
