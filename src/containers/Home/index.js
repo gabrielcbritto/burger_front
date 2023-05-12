@@ -49,7 +49,7 @@ function Home() {
         <H1>Faça seu pedido!</H1>
 
         <InputLabel>Pedido:</InputLabel>
-        <Input ref={inputOrder} placeholder="Pedido" />
+        <Input ref={inputOrder} placeholder="Pedido"/>
 
         <InputLabel>Nome do Cliente:</InputLabel>
         <Input ref={inputName} placeholder="Nome do Cliente" />

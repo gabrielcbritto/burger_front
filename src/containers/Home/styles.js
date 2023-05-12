@@ -52,6 +52,10 @@ export const Input = styled.input`
     font-size: 16px;
     line-height: 21px;
   }
+  &:hover{
+    ::placeholder {
+      color: transparent;
+  }
 `;
 
 export const Button = styled.button`
@@ -69,4 +73,9 @@ export const Button = styled.button`
   font-size: 17px;
   line-height: 2px;
   color: #ffffff;
+  opacity: 0.8;
+
+  &:hover{
+    opacity: 1;
+  }
 `;
